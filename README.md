@@ -1,6 +1,7 @@
 # Terminator Config File
 
 A color theme for terminator based on:
+
 https://gist.github.com/mvisonneau/04c4aa05a66a23c94960
 
 
