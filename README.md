@@ -9,6 +9,9 @@ The config file for Terminator terminal emulator:
 
     ~/.config/terminator/config
 
+Terminator can be installed by:
+    sudo yum install terminator
+
 ## Usage
 
 ```bash
@@ -17,4 +20,6 @@ cd terminator
 mkdir -p ~/.config/terminator/
 cp config ~/.config/terminator
 ```
+
+Then restart Terminator, if already using it.
 
