@@ -12,14 +12,9 @@ Split the view vertically:
 
 Split the view horizontally
 
-    Ctrl-Shift-O:
+    Ctrl-Shift-O
 
 
-Move to the terminal left  of  the  current one:
+Move cursor to the terminal left/right/up/down  of  the  current one:
 
-    Alt + Left
-
-
-Move to the terminal right  of  the  current one:
-
-    Alt + Right
+    Alt + Left/Right/Up/Down
