@@ -18,3 +18,11 @@ Split the view horizontally
 Move cursor to the terminal left/right/up/down  of  the  current one:
 
     Alt + Left/Right/Up/Down
+
+Move to next Tab 
+
+    Ctrl+PageDown
+
+Move to previous Tab 
+
+    Ctrl+PageUp
