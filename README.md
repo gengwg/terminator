@@ -12,7 +12,7 @@ Terminator can be installed by
 
     ```sudo yum install terminator```
 
-- On Debian
+- On Debian:
 
     ```sudo apt install terminator```
 
@@ -35,3 +35,7 @@ Then restart Terminator, if already using it.
 ## Terminator Shortcuts
 
 Now I can open Terminator and start using the terminal. Here are some useful [Shortcuts](terminator.md).
+
+## Help
+
+`man terminator_config`
