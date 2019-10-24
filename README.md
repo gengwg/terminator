@@ -10,15 +10,15 @@ Terminator can be installed by
 
 - On Centos:
 
-    sudo yum install terminator
+    ```sudo yum install terminator```
 
 - On Debian
 
-    sudo apt install terminator
+    ```sudo apt install terminator```
 
 The config file for Terminator terminal emulator:
 
-    ~/.config/terminator/config
+    ```~/.config/terminator/config```
 
 
 ## Usage
