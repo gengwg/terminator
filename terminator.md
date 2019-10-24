@@ -26,3 +26,6 @@ Move to next Tab
 Move to previous Tab 
 
     Ctrl+PageUp
+
+Toggle window to fullscreen
+    F11
