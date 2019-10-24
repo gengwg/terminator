@@ -18,7 +18,7 @@ Terminator can be installed by
 
 The config file for Terminator terminal emulator:
 
-    ```~/.config/terminator/config```
+    ~/.config/terminator/config
 
 
 ## Usage
