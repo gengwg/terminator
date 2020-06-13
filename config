@@ -25,6 +25,7 @@
     [[[window0]]]
       type = Window
       parent = ""
+      size = 1912, 1044
   [[knak]]
     [[[child0]]]
       position = 1920:0
