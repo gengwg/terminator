@@ -16,6 +16,13 @@
     foreground_color = "#eee8d5"
     background_color = "#002b36"
     scrollback_infinite = True
+    copy_on_selection = True
+    show_titlebar = False
+    use_system_font = False
+    #font = Monospace 13
+    #font = Liberation Mono 13
+    font = Consolas 13
+
 [layouts]
   [[default]]
     [[[child1]]]
