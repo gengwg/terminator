@@ -24,6 +24,8 @@ The config file for Terminator terminal emulator:
 
 ## Usage
 
+### copy the config to terminator config path
+
 ```bash
 git clone https://github.com/gengwg/terminator.git
 cd terminator
@@ -31,7 +33,9 @@ mkdir -p ~/.config/terminator/
 cp config ~/.config/terminator
 ```
 
-Change cursor shape:
+Then restart Terminator, if already using it.
+
+### Change cursor shape
 
 ```
 Right Click
@@ -41,8 +45,6 @@ Right Click
                 > Cursor
                     > Shape: Block/Underline/I-Beam
 ```
-
-Then restart Terminator, if already using it.
 
 ## Terminator Shortcuts
 
