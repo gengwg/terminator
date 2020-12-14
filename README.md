@@ -31,6 +31,17 @@ mkdir -p ~/.config/terminator/
 cp config ~/.config/terminator
 ```
 
+Change cursor shape:
+
+```
+Right Click
+    > Preferences
+        > Profiles
+            > General
+                > Cursor
+                    > Shape: Block/Underline/I-Beam
+```
+
 Then restart Terminator, if already using it.
 
 ## Terminator Shortcuts
