@@ -18,6 +18,7 @@ Terminator can be installed by
 
 The config file for Terminator terminal emulator:
 
+    mkdir ~/.config/terminator/
     ~/.config/terminator/config
 
 

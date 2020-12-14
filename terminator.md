@@ -6,11 +6,11 @@ Documentation for all of Terminator keybindings and config options in man pages 
 
 ## Shortcuts
 
-Split the view vertically:
+Split the view vErtically:
 
     Ctrl-Shift-E
 
-Split the view horizontally
+Split the view hOrizontally
 
     Ctrl-Shift-O
 
