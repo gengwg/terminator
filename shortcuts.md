@@ -30,3 +30,9 @@ Move to previous Tab
 Toggle window to fullscreen
 
     F11
+
+Search in terminal:
+
+```
+Ctrl + Shift + F
+```

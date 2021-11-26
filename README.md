@@ -48,7 +48,7 @@ Right Click
 
 ## Terminator Shortcuts
 
-Now I can open Terminator and start using the terminal. Here are some useful [Shortcuts](terminator.md).
+Now I can open Terminator and start using the terminal. Here are some useful [Shortcuts](shortcuts.md).
 
 ## Help
 
