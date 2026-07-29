@@ -82,3 +82,13 @@ Now I can open Terminator and start using the terminal. Here are some useful [Sh
 ## Help
 
 `man terminator_config`
+
+## opencode prompt
+
+This setup was done by prompting opencode:
+
+```
+configure terminator based on: https://github.com/gengwg/terminator
+download the Consolas font and install it
+set the font size to 11
+```
