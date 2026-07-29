@@ -33,7 +33,36 @@ mkdir -p ~/.config/terminator/
 cp config ~/.config/terminator
 ```
 
-Then restart Terminator, if already using it.
+Then restart Terminator, if already using it — close ALL windows.
+Terminator loads the config once at process start, so new tabs in a
+running process keep the old settings in memory.
+
+### Install the Consolas font
+
+The config uses `Consolas`, which is not installed on Linux by default
+(fontconfig silently falls back to DejaVu Sans Mono). To install it:
+
+```bash
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
+for v in Regular Bold Italic; do
+  curl -fsSLO "https://raw.githubusercontent.com/pensnarik/consolas-font/master/Consolas-$v.ttf"
+done
+fc-cache -f ~/.local/share/fonts
+```
+
+Verify:
+
+```bash
+fc-match Consolas
+# Consolas-Regular.ttf: "Consolas" "Regular"
+```
+
+Note: `Consolas-Bold-Italic.ttf` in that repo is a mislabeled bzip2
+tarball (upstream packaging bug), so it is skipped. Bold-italic is
+rarely used in a terminal; fontconfig synthesizes it if needed. The
+genuine `consolaz.ttf` can also be copied from any Windows machine
+(`C:\Windows\Fonts`).
 
 ### Change cursor shape
 
