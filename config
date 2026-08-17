@@ -21,7 +21,7 @@
     use_system_font = False
     #font = Monospace 13
     #font = Liberation Mono 13
-    font = Consolas 13
+    font = Consolas 11
 
 [layouts]
   [[default]]
