@@ -25,14 +25,25 @@
 
 [layouts]
   [[default]]
-    [[[child1]]]
-      type = Terminal
-      parent = window0
-      profile = default
     [[[window0]]]
       type = Window
       parent = ""
       size = 1912, 1044
+    [[[child1]]]
+      type = HPaned
+      parent = window0
+      order = 0
+      position = 956
+    [[[terminal1]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = default
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = default
   [[knak]]
     [[[child0]]]
       position = 1920:0
